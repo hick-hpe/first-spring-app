@@ -601,7 +601,10 @@ public class FirstSpringAppApplication {
 ## Annotations utilizados
 
 ### Spring Boot e Spring MVC
-- `@SpringBootApplication`: marca a classe principal da aplicação; combina `@Configuration`, `@EnableAutoConfiguration` e `@ComponentScan`
+- `@SpringBootApplication`: marca a classe principal da aplicação; combina:
+    - `@Configuration`: Diz ao Spring que essa classe pode definir beans para o contexto da aplicação.
+    - `@EnableAutoConfiguration`: configura automaticamente partes do sistema conforme as dependências do projeto (por exemplo: se tem o starter web, ele configura o servidor automaticamente).
+    - `@ComponentScan`: Diz ao Spring para procurar e registrar automaticamente componentes (@Controller, @Service, @Repository, etc.) no mesmo pacote e subpacotes da classe principal.
 - `@RestController`: define uma classe que vai responder requisições HTTP com JSON ou texto
 - `@Service`: define uma classe de serviço gerenciada pelo Spring (lógica de negócio).
 - `@RequestMapping(endpoint)`: mapeia uma URL para a classe ou método
