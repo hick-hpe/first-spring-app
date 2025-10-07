@@ -267,14 +267,13 @@ Agora, exibe "Hello World" mais o nome que passamos. Neste caso, "Hick".
 ### Dados da API
 Vamos criar uma API simples para gerenciar usuários, com os seguintes métodos:
 
-
 | Método HTTP + Endpoint | Objetivo | Entrada | Saída |
-|--------------|-------------|--|---|
-| GET /users/ | Listar os usuários | Nenhuma | {"nome": "nome", "email": "email"} |
-| POST /users/ | Criar um usuário | {"nome": "nome", "email": "email"} | {"nome": "nome", "email": "email"} || GET /users/ | Listar os usuários | Nenhuma | {"nome": "nome", "email": "email"} || GET /users/ | Listar os usuários | Nenhuma | {"nome": "nome", "email": "email"} |
-| GET /users/{id}/ | Obter dados de um usuário | Nenhuma | {"nome": "nome_ID", "email": "email_ID"} || GET /users/ | Listar os usuários | Nenhuma | {"nome": "nome", "email": "email"} || GET /users/ | Listar os usuários | Nenhuma | {"nome": "nome", "email": "email"} |
-PUT /users/{id}/ | Editar dados de um usuário | {"nome": "nome_ID", "email": "email_ID"} | {"nome": "nome_ID", "email": "email_ID"} |
-DELETE /users/{id}/ | Obter dados de um usuário | Nenhuma | {"nome": "nome_ID", "email": "email_ID"} || GET /users/ | Excluir dados de um usuário | Nenhuma | {"nome": "nome", "email": "email"} || GET /users/ | Listar os usuários | Nenhuma | {"nome": "nome", "email": "email"} |
+|------------------------|-----------|----------|--------|
+| **GET /users/** | Listar os usuários | Nenhuma | <pre><code>{<br>  "nome": "nome",<br>  "email": "email"<br>}</code></pre> |
+| **POST /users/** | Criar um usuário | <pre><code>{<br>  "nome": "nome",<br>  "email": "email"<br>}</code></pre> | <pre><code>{<br>  "nome": "nome",<br>  "email": "email"<br>}</code></pre> |
+| **GET /users/{id}/** | Obter dados de um usuário | Nenhuma | <pre><code>{<br>  "nome": "nome_ID",<br>  "email": "email_ID"<br>}</code></pre> |
+| **PUT /users/{id}/** | Editar dados de um usuário | <pre><code>{<br>  "nome": "nome_ID",<br>  "email": "email_ID"<br>}</code></pre> | <pre><code>{<br>  "nome": "nome_ID",<br>  "email": "email_ID"<br>}</code></pre> |
+| **DELETE /users/{id}/** | Excluir dados de um usuário | Nenhuma | <pre><code>{<br>  "nome": "nome_ID",<br>  "email": "email_ID"<br>}</code></pre> |
 
 ## Arquivos necessários e suas funções
 | Arquivo  | Objetivo |
