@@ -151,7 +151,8 @@ public class HelloWorldController {
 }
 ```
 
-> Caso já tenha uma versão do Java instalado e não queira desinstalar ela, apenas mude a versão antes de iniciar o servidor:
+## Java Já instalado
+Caso já tenha uma versão do Java instalado e não queira desinstalar ela, apenas mude a versão antes de iniciar o servidor:
 
 Linux/Mac
 ```bash
