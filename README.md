@@ -256,7 +256,7 @@ public String helloWorld() {
 }
 ```
 
-Indo para o navegador, veremos:
+Indo para o navegador, veremos: <br />
 ![alt text](assets-git/hello-world-name.png)
 
 Agora, exibe "Hello World" mais o nome que passamos. Neste caso, "Hick".
