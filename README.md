@@ -1,7 +1,5 @@
 # Introdução ao Spring Boot Framework
 
-Bem-vindo ao Spring Boot! Este material guia iniciantes com explicações claras e exemplos práticos, ajudando a construir suas primeiras aplicações e ganhar confiança no framework.
-
 ## Spring
 O **Spring** é um framework open-source para a linguagem Java (mas também suporta Groovy e Kotlin) que facilita o desenvolvimento de aplicações robustas, escaláveis e de fácil manutenção. Ele oferece:
 - **Inversão de Controle (IoC):** O Spring gerencia os objetos (beans) e suas dependências automaticamente. Exemplo: você não precisa criar instâncias manualmente; usa @Autowired e o Spring injeta o bean.
@@ -624,5 +622,3 @@ public class FirstSpringAppApplication {
 - `@Getter`: gera automaticamente getters
 - `@Setter`: gera automaticamente setters
 - `@AllArgsConstructor`: gera construtor com todos os campos da classe
-
-Com este guia, esperamos que você se sinta confiante para continuar explorando o Spring Boot e construir aplicações cada vez mais robustas e eficientes.
